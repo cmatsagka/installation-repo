@@ -65,8 +65,9 @@ svg {
   }
 }
 
-/* ----- */
+/* ----------------- */
 
+/* attributes */
 :root {
 
     --color-accent-400: hsl(123, 53%, 46%);
@@ -94,7 +95,27 @@ svg {
     --font-size-900: 3.5rem;
 }
 
-/* ----- */
+/* --------- */
+
+/* General Styling */
+
+body {
+    font-size: var(--font-size-400);
+    font-family: var(--font-family-body);
+    color: var(--color-primary-400);
+  }
+
+.container {
+    --max-width: 1110px;
+    --padding: 1rem;
+
+    width: min(var(--max-width), 100% - (var(--padding) *2));
+    margin-inline: auto;
+}
+
+.primary-header {
+    margin-top: 2rem;
+  }
 
 .flex-container {
     display: flex;
