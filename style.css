@@ -153,7 +153,39 @@ svg {
 .font-size-500 { font-size: var(--font-size-500);}
 
 
+/* navigation */
 
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: clamp(2rem, 2.5rem, 3rem);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: clamp(0.8rem, 1rem, 1.5rem);
+
+  font-weight: var(--font-weight-bold);
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--color-primary-900);
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--color-accent-400);
+}
+
+.primary-header {
+  margin-top: 2rem;
+}
 
 .container {
     --max-width: 1110px;
@@ -165,13 +197,20 @@ svg {
 
 .even-columns {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
+
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
 }
 
-
 @media (min-width: 50em){
-    .even-columns {
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
+  .even-columns-grid {
+    grid-template-columns: repeat(2, 1fr);
+     /* fr = fraction --> divide equally in grid */
+  }
+
+     .grid-col-span-2 {
+      grid-column: span 2;
     }
 }

@@ -13,13 +13,15 @@
 <body>
     <header class="primary-header">
         <div class="container">
-            <a href="#"><img src="images/logo.svg" alt="Chrysanthi Matsagka"></a>
-            <nav class="primary-navigation">
-                <ul role="list" class="nav-list">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="flex-container">
+                <a href="#"><img src="images/logo.svg" alt="Chrysanthi Matsagka"></a>
+                <nav class="primary-navigation">
+                    <ul role="list" class="nav-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -27,11 +29,11 @@
         <section>
             <div class="container">
                 <div class="even-columns">
-                    <div>
+                    <div class="grid-col-span-2">
                         <h1 class="font-size-primary-heading font-weight-bold">Title</h1>
                         <p>Interactive installation, 4-channel audio, plants</p>
                     </div>
-                    <div>
+                    <div class="grid-col-span-2">
                         <img src="images/sound_sketch_thesis3-01.png" alt="A photo showing the installation">
                     </div>
                 </div>
@@ -41,7 +43,7 @@
         <section>
             <div class="container">
                 <div class="even-columns">
-                    <h2 class="font-size-secondary-heading font-weight-bold">Lorem ipsum dolor sit amet</h2>
+                    <h2 class="font-size-secondary-heading font-weight-bold grid-col-span-2">Lorem ipsum dolor sit amet</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
@@ -69,24 +71,28 @@
         </section>
 
         <section>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit, sed do eiusmod tempor incididunt ut labore 
-                     et dolore magna aliqua. Tincidunt arcu non sodales
-                      neque sodales ut. Vitae aliquet nec ullamcorper 
-                      sit amet. Sit amet nisl purus in mollis nunc sed 
-                      id. Dui ut ornare lectus sit amet est placerat in.
-                       A erat nam at lectus urna duis. Tincidunt vitae
-                        semper quis lectus. Pretium nibh ipsum consequat
-                         nisl vel. Ultrices neque ornare aenean euismod.
-                         Vel elit scelerisque mauris pellentesque pulvinar
-                          pellentesque. Dui sapien eget mi proin. Vitae 
-                          aliquet nec ullamcorper sit amet risus nullam 
-                          eget felis. Sit amet venenatis urna cursus eget
-                           nunc. At tempor commodo ullamcorper a lacus 
-                           vestibulum sed arcu. Purus ut faucibus pulvinar
-                            elementum integer enim. Habitant morbi 
-                    tristique senectus et netus et malesuada fames.</p>
+            <div class="container">
+                <div class="even-columns">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore 
+                            et dolore magna aliqua. Tincidunt arcu non sodales
+                            neque sodales ut. Vitae aliquet nec ullamcorper 
+                            sit amet. Sit amet nisl purus in mollis nunc sed 
+                            id. Dui ut ornare lectus sit amet est placerat in.
+                            A erat nam at lectus urna duis. Tincidunt vitae
+                                semper quis lectus. Pretium nibh ipsum consequat
+                                nisl vel. Ultrices neque ornare aenean euismod.
+                                Vel elit scelerisque mauris pellentesque pulvinar
+                                pellentesque. Dui sapien eget mi proin. Vitae 
+                                aliquet nec ullamcorper sit amet risus nullam 
+                                eget felis. Sit amet venenatis urna cursus eget
+                                nunc. At tempor commodo ullamcorper a lacus 
+                                vestibulum sed arcu. Purus ut faucibus pulvinar
+                                    elementum integer enim. Habitant morbi 
+                            tristique senectus et netus et malesuada fames.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -107,7 +113,11 @@
         </section>
 
         <section>
-            <video src="movie.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            <div class="container">
+                <div class="even-columns">
+                    <video src="movie.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                </div>
+            </div>
         </section>
     </main>
 
