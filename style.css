@@ -245,14 +245,12 @@ button {
     color: var(--clr-dark);
 }
 
-.feature {
+.feature__video {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    
-    
+    gap: 2rem;
 }
 
 .footer {
