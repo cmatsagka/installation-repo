@@ -16,6 +16,76 @@
 /* 2xL */
 /* @media (min-width: 1536px) {} */
 
+
+/* https://piccalil.li/blog/a-modern-css-reset*/
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html, 
+body{
+    height: 100%;
+}
+
+/* Set core body defaults */
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ----------------- */
+
 :root {
 
     --clr-dark: #020617;
@@ -215,6 +285,55 @@ button {
     letter-spacing: -0.01em;
 }
 
+.mobile-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-nav__menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mobile-nav__link {
+    font-size: var(--sizes-sm);
+    text-decoration: none;
+    font-weight: 600;  
+    color: var(--clr-dark);
+    letter-spacing: -0.05em;
+    transition: color 0.3s;
+}
+
+.mobile-nav__link:hover {
+    color: var(--clr-green400);
+}
+
+.mobile-nav__x {
+    display: block;
+    width: var(--sizes-xl);
+    height: var(--sizes-xl);
+    color: var(--clr-dark);
+}
+
+.mobile-nav__x:hover {
+    color: var(--clr-green400);
+}
+
+
 /* Media sizes */
 
 /* xs */
@@ -380,9 +499,6 @@ button {
 
 }
 
-/* 2xL */
-/* @media (min-width: 1536px) {} */
-
 
 /* Utility Classes */
 
@@ -409,11 +525,18 @@ button {
 }
 
 .container {
-    width: 100%;
-    margin-left: auto; 
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    /* width: 100%; */
+    /* margin-left: auto; 
+    margin-right: auto; */
+    /* padding-left: 0.5rem;
+    padding-right: 0.5rem; */
+
+    --max-width: 1110px;
+    --padding: 1rem;
+  
+    width: min(var(--max-width), 100% - (var(--padding) * 2));
+    margin-inline: auto; */
+
 }
 
 .section {
