@@ -175,6 +175,16 @@ button {
     color: var(--clr-dark);
 }
 
+.feature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+    
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
