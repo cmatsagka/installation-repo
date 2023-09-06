@@ -488,11 +488,11 @@ button {
 }
 
 .footer__logo {
-    font-size: var(--sizes-base);
+    font-size: var(--sizes-sm);
     font-weight: 600;
 }
 
-.footer_email {
+.footer__email {
     font-size: var(--sizes-sm);
     font-weight: 600;
 }
@@ -501,28 +501,6 @@ button {
 
 
 /* Utility Classes */
-
-.btn {
-    display: inline-block;
-    font-weight: 600;
-    text-decoration: none;
-    letter-spacing: -0.05em;
-    background-color: var(--clr-sky900);
-    color: var(--clr-light);
-    padding: 0.5em 1em;
-    border-radius: 6px;
-    box-shadow: 0 10px 20px rgba(rgb(5, 31, 46), 0.5), 
-    0 6px 6px rgba(rgb(5, 31, 46), 0.5), 
-    0 0 100px -10px var(--clr-sky900);
-
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 14px 28px rgba(rgb(5, 31, 46), 0.25), 
-    0 10px 10px rgba(rgb(5, 31, 46), 0.22), 
-    0 0 120px -10px var(--clr-sky900);
-}
 
 .container {
     /* width: 100%; */
@@ -545,3 +523,26 @@ button {
 .center {
     justify-content: center;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-green700);
+    outline: 1px solid var(--clr-green400);
+  }
