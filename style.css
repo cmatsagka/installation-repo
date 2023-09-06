@@ -184,6 +184,26 @@ button {
     padding-bottom: 1.5rem;
 }
 
+.footer__logo {
+    align-items: center;
+    padding: 0;
+
+    text-decoration: none;
+    font-size: var(--sizes-sm);
+    font-weight: 600;
+    color: var(--clr-accent600);
+    letter-spacing: -0.01em;
+}
+
+.footer_email {
+    align-items: center;
+    padding: 0;
+
+    font-size: var(--sizes-xxs);
+    font-weight: 600;
+    color: var(--clr-accent600);
+    letter-spacing: -0.01em;
+}
 
 /* Media sizes */
 
@@ -338,6 +358,16 @@ button {
     width: 30.75rem;
 }
 
+.footer__logo {
+    font-size: var(--sizes-base);
+    font-weight: 600;
+}
+
+.footer_email {
+    font-size: var(--sizes-sm);
+    font-weight: 600;
+}
+
 }
 
 /* 2xL */
@@ -378,4 +408,8 @@ button {
 
 .section {
     margin-top: 5rem;
+}
+
+.center {
+    justify-content: center;
 }
