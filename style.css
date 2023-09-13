@@ -409,6 +409,7 @@ button {
     .header__bars {
         display: none;
     }
+
 }
 
 /* Lg */
@@ -515,7 +516,7 @@ button {
 }
 
 .section {
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .center {
