@@ -1,3 +1,6 @@
+//Mobile navigation 
+//Basic code from https://youtu.be/dLDn_k8GmaU?si=LuXZcdFbhd2dJ9aG&t=8602
+
 const mobileNav = () => {
     const headerBtn = document.querySelector('.header__bars');
     const mobileNav = document.querySelector('.mobile-nav');
@@ -34,5 +37,3 @@ const mobileNav = () => {
 };
 
 mobileNav();
-
-

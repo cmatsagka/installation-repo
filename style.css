@@ -1,23 +1,5 @@
-/* xs */
-/* @media (min-width: 475px) {} */
-
-/* sm */
-/* @media (min-width: 640px) {} */
-
-/* md */
-/* @media (min-width: 768px) {} */
-
-/* Lg */
-/* @media (min-width: 1024px) {} */
-
-/* xL */
-/* @media (min-width: 1280px) {} */
-
-/* 2xL */
-/* @media (min-width: 1536px) {} */
-
-
 /* https://piccalil.li/blog/a-modern-css-reset*/
+/* Extra modifying from https://www.youtube.com/watch?v=h3bTwCqX4ns&list=PL4-IK0AVhVjNDRHoXGort7sDWcna8cGPA&index=1&ab_channel=KevinPowell */
 
 /* Box sizing rules */
 *,
@@ -85,9 +67,8 @@ svg {
 }
 
 /* ----------------- */
-
 :root {
-
+/*Color variables */
     --clr-dark: #020617;
     --clr-light: #f0fdf4;
     --clr-green400: #4ade80;
@@ -96,7 +77,7 @@ svg {
     --clr-sky900dark: #051f2e; 
     --clr-white: white; 
 
-    /* Sizes */
+/*Size variables */
     --sizes-xxs: 0.5rem;
     --sizes-xs: 0.75rem;
     --sizes-sm: 0.875rem;
@@ -114,10 +95,7 @@ svg {
     --sizes-10xl: 10rem;
 }
 
-
 /* General Styling */
-
-
 * {
     margin: 0;
     line-height: calc(1em + 0.5rem);
@@ -283,6 +261,8 @@ button {
     letter-spacing: -0.01em;
 }
 
+/* Mobile nav */
+/*Basic code from https://youtu.be/dLDn_k8GmaU?si=0ZF4-Uy0Xds5V3UX&t=8093 */
 .mobile-nav {
     position: absolute;
     top: 0;
@@ -330,9 +310,11 @@ button {
 .mobile-nav__x:hover {
     color: var(--clr-green400);
 }
-
+/* End of mobile nav */
 
 /* Media sizes */
+/* Basic code for responsive, mobile first
+ https://www.youtube.com/watch?v=dLDn_k8GmaU&t=1544s&ab_channel=SlayingTheDragon */
 
 /* xs */
 @media (min-width: 475px) {
@@ -369,7 +351,6 @@ button {
         font-size: var(--sizes-base);
     }
 }
-
 /* sm */
 @media (min-width: 640px) {
     .text-space__img-wrapper {
@@ -380,7 +361,6 @@ button {
         width: 28.6875rem;
     }
 }
-
 /* md */
 @media (min-width: 768px) {
        
@@ -409,9 +389,7 @@ button {
     .header__bars {
         display: none;
     }
-
 }
-
 /* Lg */
 @media (min-width: 1024px) {
     .header__link {
@@ -495,19 +473,10 @@ button {
     font-size: var(--sizes-sm);
     font-weight: 600;
 }
-
 }
 
-
 /* Utility Classes */
-
 .container {
-    /* width: 100%; */
-    /* margin-left: auto; 
-    margin-right: auto; */
-    /* padding-left: 0.5rem;
-    padding-right: 0.5rem; */
-
     --max-width: 1110px;
     --padding: 1rem;
   
@@ -532,7 +501,7 @@ button {
 }
 
 /* Scrollbar */
-
+/*Code from https://youtu.be/dLDn_k8GmaU?si=brjzRpAgxOwYKdGH&t=12049 */
 body::-webkit-scrollbar {
     width: 8px;
   }
