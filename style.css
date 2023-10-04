@@ -500,6 +500,10 @@ button {
     text-align: right;
 }
 
+.flex-dir-row {
+    flex-direction: row;
+}
+
 /* Scrollbar */
 /*Code from https://youtu.be/dLDn_k8GmaU?si=brjzRpAgxOwYKdGH&t=12049 */
 body::-webkit-scrollbar {

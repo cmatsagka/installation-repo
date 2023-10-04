@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Χρυσάνθη Ματσάγκα</title>
+</head>
+<body>
+    <header class="header container">
+        <a class="header__logo" href="#">Χρυσάνθη Ματσάγκα</a>
+        <nav>
+            <ul class="header__menu">
+                <li>
+                    <a class="header__link" href="#about">Περιγραφή</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#showcase">Video</a>
+                </li>
+            </ul>
+            <button class="header__bars">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                  </svg> 
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <nav>
+            <ul class="mobile-nav__menu">
+                <li>
+                    <a class="mobile-nav__link" href="#about">Περιγραφή</a>
+                </li>
+                <li>
+                    <a class="mobile-nav__link" href="#showcase">Video</a>
+                </li>
+                <li>
+                    <button class="mobile-nav__x">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="none" viewBox="0 0 24 24" 
+                            stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>  
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End of mobile navigation -->
+    
+    <main>
+        <section class="hero container">
+            <!-- <h1 class="hero__title">Τίτλος</h1> -->
+            <h1 class="hero__title">Διαδραστική ηχητική εγκατάσταση</h1>
+            <!-- <p class="hero__description">Διαδραστική ηχητική εγκατάσταση, 4 κανάλια ήχου, φυτά, αισθητήρες</p> -->
+            <img class="hero__image" src="images/plant1.png" alt="Image">
+        </section>
+
+        <section class="text-space container section"> 
+            <div class="text-space__content">
+                <h2 id="about" class="text-space__title">Περιγραφή</h2>  
+                <p class="text-space__description">Διαδραστική εγκατάσταση που καλεί τον επισκέπτη να αλληλεπιδράσει με φυτά που βρίσκονται τοποθετημένα στο χώρο, παράγουν ηχοτοπία και φέρουν αισθητήρες που καταγράφουν την απόσταση του επισκέπτη από το φυτό και την επαφή μαζί του.</p>
+            </div>
+            <div class="text-space__img-wrapper">
+                <img loading="lazy" class="text-space__img" src="images/sound_sketch_thesis3-01.png" alt="Image">
+            </div>
+        
+        </section>
+
+        <section class="text-space container section center">
+            <div class="text-space__content">
+                <!-- <h2 class="text-space__title text-center">Ενότητα</h2>   -->
+                <p class="text-space__description text-center">Μέσω της εγκατάστασης επιδιώκεται η διερεύνηση των σχέσεων που αναπτύσσονται στο επίπεδο της σχέσης του ανθρώπου με την φύση. Μέσα από τη συνύπαρξη και τη διάδραση επιχειρείται η δημιουργία ενός πλαισίου προσωπικής αναζήτησης αναφορικά με το επίπεδο στο οποίο τοποθετείται το άτομο σε σχέση με το οικοσύστημα εντός του οποίου ζει.</p>
+                
+            </div>
+        </section>
+
+        <section class="text-space container section"> 
+            <div class="text-space__img-wrapper">
+                <img loading="lazy" class="text-space__img" src="images/installation_plan.png" alt="Image">
+            </div>
+
+            <div class="text-space__content text-right">
+                <h2 class="text-space__title text-right">Λειτουργία</h2>  
+                <p class="text-space__description">Στο χώρο υπάρχει αισθητήρας που εντοπίζει την είσοδο ατόμου στην περιοχή του φυτού και ενημερώνει το σύστημα που ξεκινά να προσθέτει στο ηχοτοπίο ήχους που αφορούν την παρουσία του. Καθώς το άτομο προχωρά προς το φυτό και το αγγίζει το ηχοτοπίο αποκτά περισσότερα στοιχεία που αφορούν τον άνθρωπο. Καθ' όλη την διάρκεια της παρουσίας του ανθρώπου στο χώρο, γίνεται έλεγχος ώστε να κριθεί αν η παρουσία του γίνεται αρμονικά με τα υπόλοιπα στοιχεία ή αν ξεπερνά τα όρια. Εφόσον, ξεπεραστούν το σύστημα προσπαθεί να ειδοποιήσει το άτομο ότι οι ενέργειές του είναι ενοχλητικές και πρέπει να τις ελαττώσει. Η συνέχεια ή το τέλος κρίνεται από τις μετέπειτα αποφάσεις που θα παρθούν από την πλευρά του ανθρώπου και θα οδηγήσουν είτε στην προηγούμενη αρμονική κατάσταση ή στο βίαιο τέλος του ηχοτοπίου και την αναγέννησή του.</p>
+            </div>
+        </section>
+
+        <section class="feature container section">
+            <h2 id="showcase" class="text-space__title">Video</h2>
+            <div class="feature__video">
+                <video
+                    controls width="250">
+                    <source src="video/touch_plant01.mp4" type="video/mp4">
+                    <p>
+                        Your browser doesn't support HTML video. Here is a
+                        <a href="myVideo.mp4">link to the video</a> instead.
+                    </p>
+                </video>
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <a class="footer__logo" href="#">Χρυσάνθη Ματσάγκα</a>
+        <p class="footer__email">t14mats@ionio.gr</p>
+    </footer> 
+    <script src="mobile-nav.js"></script>
+</body>
+</html>
