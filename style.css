@@ -213,7 +213,7 @@ button {
 }
 
 .text-space__title {
-    font-size: var(--sizes-2xl);
+    font-size: var(--sizes-xl);
     color: var(--clr-sky900dark);
 }
 
