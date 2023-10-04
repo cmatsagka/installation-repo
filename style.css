@@ -182,7 +182,7 @@ button {
 
 .hero__title {
     color: var(--clr-dark);
-    font-size: var(--sizes-3xl);
+    font-size: var(--sizes-lg);
     letter-spacing: -0.05em;
     line-height: 0.9;
 }
