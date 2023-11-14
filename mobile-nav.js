@@ -35,5 +35,4 @@ const mobileNav = () => {
     });
     
 };
-
 mobileNav();
