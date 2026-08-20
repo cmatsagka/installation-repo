@@ -69,3 +69,14 @@ The companion website contains much deeper, comprehensive information regarding 
 ### Video Demonstrations:
 
 Check the video/ directory in this repository to watch the physical installation running live with the Raspberry Pi and sensor setup.
+
+---
+
+## 📄 Licensing & Copyright
+
+- **Source Code** (Arduino scripts, Pure Data patches, and JavaScript): Licensed under the **MIT License**. You can view the `LICENSE` file for details.
+- **Artistic Content, Media, 3D Models, and Documentation Text**: Licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+© 2023–2026 Chrysanthi Matsagka. All rights reserved for creative assets.
+
+[![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
