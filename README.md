@@ -5,6 +5,19 @@
 >
 > 🌐 **Live Project Website:** [View Documentation Website](https://your-github-username.github.io/your-repository-name/) _(Note: The website is written in Greek)_
 
+---
+
+## Installation Preview
+
+<p align="center">
+  <a href="https://www.youtube.com/shorts/txDjm4fkjWQ" target="_blank">
+    <img src="https://img.youtube.com/vi/txDjm4fkjWQ/0.jpg" alt="Interactive Installation Preview" width="60%">
+  </a>
+</p>
+<p align="center"><em>Click the thumbnail above to watch the video demonstration with sound on YouTube.</em></p>
+
+---
+
 ## Overview
 
 An interactive sound installation that invites visitors to interact with living plants situated in a designated space. A real-time generative sound system creates shifting soundscapes that respond directly to the visitor's proximity and physical contact with the plants.
@@ -12,7 +25,7 @@ An interactive sound installation that invites visitors to interact with living 
 The core artistic and philosophical goal is to investigate human-nature relationships, exploring whether humans act in harmony with their ecosystem or dominate it to the point of collapse.
 
 <p align="center">
-  <img src="images/installation_topview.png" alt="Installation Preview" width="80%">
+  <img src="images/installation_2024.jpg" alt="Installation Preview" width="50%">
 </p>
 
 **Concept & Execution:**  
@@ -21,6 +34,10 @@ Every single aspect of this project—including the overarching concept, sound d
 ---
 
 ## System Architecture & Tech Stack
+
+<p align="center">
+  <img src="images/installation_topview.png" alt="Installation Preview" width="60%">
+</p>
 
 The installation bridges the physical world with real-time digital audio processing:
 
